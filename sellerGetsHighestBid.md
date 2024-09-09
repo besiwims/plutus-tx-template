@@ -1,6 +1,6 @@
 ```
-  sellerGetsHighestBid :: Bool
-    sellerGetsHighestBid = case highestBid of
+sellerGetsHighestBid :: Bool
+sellerGetsHighestBid = case highestBid of
         Nothing -> True
         Just (Bid _ amt) ->
             case PlutusTx.find
