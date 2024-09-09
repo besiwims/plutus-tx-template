@@ -1,6 +1,6 @@
 ```haskell
 highestBidderGetsAsset :: Bool
-    highestBidderGetsAsset = case highestBid of
+highestBidderGetsAsset = case highestBid of
         Nothing -> True
         Just (Bid bidder _) ->
             case PlutusTx.find
