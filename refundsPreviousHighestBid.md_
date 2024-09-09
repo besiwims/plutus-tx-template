@@ -1,20 +1,21 @@
+Here’s the converted Haskell code snippet with an explanation in markdown format:
+
 ```haskell
-  refundsPreviousHighestBid :: Bool
-  refundsPreviousHighestBid = case highestBid of
-        Nothing -> True 
-        Just (Bid bidder amt) ->
-            case PlutusTx.find
-                ( \o ->
-                    txOutAddress o
-                        PlutusTx.== pubKeyHashAddress bidder
-                        PlutusTx.&& txOutValue o
-                        PlutusTx.== lovelaceValue amt
-                )
-                (txInfoOutputs txInfo) of
-                Just _ -> True
-                Nothing -> PlutusTx.traceError ("Not found: refund output")
+refundsPreviousHighestBid :: Bool
+refundsPreviousHighestBid = case highestBid of
+    Nothing -> True 
+    Just (Bid bidder amt) ->
+        case PlutusTx.find
+            ( \o ->
+                txOutAddress o
+                    PlutusTx.== pubKeyHashAddress bidder
+                    PlutusTx.&& txOutValue o
+                    PlutusTx.== lovelaceValue amt
+            )
+            (txInfoOutputs txInfo) of
+            Just _ -> True
+            Nothing -> PlutusTx.traceError ("Not found: refund output")
 ```
-This Haskell code snippet defines a function `refundsPreviousHighestBid` that checks if a refund for the previous highest bid is present in a transaction. Here’s a breakdown of the code:
 
 ### Explanation
 
