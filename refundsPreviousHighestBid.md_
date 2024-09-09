@@ -1,5 +1,3 @@
-Here’s the converted Haskell code snippet with an explanation in markdown format:
-
 ```haskell
 refundsPreviousHighestBid :: Bool
 refundsPreviousHighestBid = case highestBid of
