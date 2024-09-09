@@ -1,6 +1,6 @@
 # This is a rapid Plutus Application Development (rPAD-Pheidippides) project.
 
-**Aim:** To promote rapid, easy learning, simplification, and development on Cardano. Just like the greek messangers who ran to deliver good news of victory, rPAD aims to quickly deliver quick dApps to the community.
+**Aim:** To promote rapid, easy learning, simplification, and development on Cardano. Just like a greek messanger Pheidippides, who ran to deliver good news of victory, rPAD aims to quickly deliver quick dApps to Cardano communities.
 ![alt text](WhatsApp_Image_2024-09-09_at_14.38.56-removebg-preview.png)
 
 **Author:** Bernard Sibanda (Intersect Developer Advocate). You can contact him via Discord: `#wims5274` or email: `cto@wims.io`.
