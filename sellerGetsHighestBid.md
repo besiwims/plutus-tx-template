@@ -75,3 +75,7 @@ Nothing -> PlutusTx.traceError ("Not found: Output paid to seller")
   - The output is sent to the seller's address.
   - The amount sent matches the highest bid.
 - If both conditions are met, the function returns `True`, otherwise, it triggers an error.
+
+- [Back <<< HighestBidderGetsAsset](https://github.com/besiwims/plutus-tx-template/blob/main/highestBidderGetsAsset%20.md)
+
+- [Next >>> RefundPreviousHighestBid](https://github.com/besiwims/plutus-tx-template/blob/main/refundsPreviousHighestBid.md_)
