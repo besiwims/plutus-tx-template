@@ -7,7 +7,8 @@
 
 **Date:** 09-09-2024
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/81636f94-ae64-401e-bbcc-296e000020e1)
+
 
 ## 1. Plutus Tx Template: English Auction Demo Example
 
