@@ -86,7 +86,7 @@ Congratulations, you've successfully created a Plutus validator script!
 
 [5. a) highestBidderGetsAsset.md](https://github.com/besiwims/plutus-tx-template/blob/main/highestBidderGetsAsset%20.md)
 
-[5. b) sellerGetsHighestBid.md]()
+[5. b) sellerGetsHighestBid.md](https://github.com/besiwims/plutus-tx-template/blob/main/sellerGetsHighestBid.md)
 
 [5. c) refundsPreviousHighestBid.md_]()
 
