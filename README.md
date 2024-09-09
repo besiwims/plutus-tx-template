@@ -84,10 +84,10 @@ Congratulations, you've successfully created a Plutus validator script!
 
 [5. Functions and helper functions.md](https://github.com/besiwims/plutus-tx-template/blob/main/5.%20Functions%20and%20helper%20functions.md)
 
-[5. a) highestBidderGetsAsset .md](https://github.com/besiwims/plutus-tx-template/blob/main/%20a%20highestBidderGetsAsset%20.md)
+[5. a) highestBidderGetsAsset .md]()
 
-[5. b) sellerGetsHighestBid.md](https://github.com/besiwims/plutus-tx-template/blob/main/5.%20b%20sellerGetsHighestBid.md)
+[5. b) sellerGetsHighestBid.md]()
 
-[5. c) refundsPreviousHighestBid.md_](https://github.com/besiwims/plutus-tx-template/blob/main/%20c%20refundsPreviousHighestBid.md_)
+[5. c) refundsPreviousHighestBid.md_]()
 
-[5. d) correctNewDatum.md](https://github.com/besiwims/plutus-tx-template/blob/main/5.%20d%20correctNewDatum.md)
+[5. d) correctNewDatum.md]()
