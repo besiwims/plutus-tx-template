@@ -98,3 +98,5 @@ os -> PlutusTx.traceError ...
 - If any of these conditions fail, it logs appropriate error messages for debugging.
 
 The function ultimately returns `True` if all conditions are met, indicating that the output datum is correct and matches the expected `Bid`. Otherwise, it returns `False` or throws an error, depending on the failure condition.
+
+[Back <<< refundPreviousBid](https://github.com/besiwims/plutus-tx-template/blob/main/refundsPreviousHighestBid.md)
