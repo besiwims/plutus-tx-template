@@ -49,3 +49,7 @@ This Haskell code snippet defines a function `refundsPreviousHighestBid` that ch
 - It triggers an error if the expected refund output is not found.
 
 This function is typically used in Plutus smart contracts to ensure that a refund has been correctly included in a transaction when needed.
+
+[SellerGetHighestBid](https://github.com/besiwims/plutus-tx-template/blob/main/sellerGetsHighestBid.md)
+
+[Next >>> CorrectNewDatum](https://github.com/besiwims/plutus-tx-template/blob/main/correctNewDatum.md)
