@@ -78,4 +78,4 @@ Nothing -> PlutusTx.traceError ("Not found: Output paid to seller")
 
 - [Back <<< HighestBidderGetsAsset](https://github.com/besiwims/plutus-tx-template/blob/main/highestBidderGetsAsset%20.md)
 
-- [Next >>> RefundPreviousHighestBid](https://github.com/besiwims/plutus-tx-template/blob/main/refundsPreviousHighestBid.md_)
+- [Next >>> RefundPreviousHighestBid](https://github.com/besiwims/plutus-tx-template/blob/main/refundsPreviousHighestBid.md)
