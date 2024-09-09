@@ -1,6 +1,6 @@
 ```haskell
   refundsPreviousHighestBid :: Bool
-    refundsPreviousHighestBid = case highestBid of
+  refundsPreviousHighestBid = case highestBid of
         Nothing -> True 
         Just (Bid bidder amt) ->
             case PlutusTx.find
