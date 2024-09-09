@@ -73,3 +73,7 @@ You'll need to navigate and run commands using a terminal. If you're unfamiliar 
 If everything runs successfully, the serialized validator will be written to `validator.uplc`.
 
 Congratulations, you've successfully created a Plutus validator script!
+
+## 7. Project detailed explanation : Sections below explain the structure of the plutus project: the app/AuctionValidator.hs in an easy to understand way.
+
+### a) 
