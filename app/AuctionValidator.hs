@@ -37,7 +37,6 @@ import PlutusTx
 import PlutusTx.Prelude qualified as PlutusTx
 import PlutusTx.Show qualified as PlutusTx
 
-
 data AuctionParams = AuctionParams
     { apSeller :: PubKeyHash
     , apAsset :: Value
