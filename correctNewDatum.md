@@ -1,6 +1,6 @@
 ```
- correctNewDatum :: Bid -> Bool
-    correctNewDatum bid = case getContinuingOutputs ctx of
+correctNewDatum :: Bid -> Bool
+correctNewDatum bid = case getContinuingOutputs ctx of
         [o] -> case txOutDatum o of
             OutputDatum (Datum newDatum) -> case PlutusTx.fromBuiltinData newDatum of
                 Just bid' ->
