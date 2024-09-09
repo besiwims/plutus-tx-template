@@ -73,3 +73,7 @@ Nothing -> PlutusTx.traceError ("Not found: Output paid to highest bidder")
 - The function checks if the highest bidder in an auction is receiving the asset.
 - If there are no bids, the function returns `True` by default.
 - If there is a highest bid, it verifies that the auction contract has correctly transferred the asset to the highest bidder by checking the transaction outputs. If the output is found, it returns `True`; otherwise, it throws an error.
+
+[Back <<< Functions and Helper Functions](https://github.com/besiwims/plutus-tx-template/blob/main/5.%20Functions%20and%20helper%20functions.md)
+
+[Next <<< SellerGetsHighestBid](https://github.com/besiwims/plutus-tx-template/blob/main/sellerGetsHighestBid.md)
