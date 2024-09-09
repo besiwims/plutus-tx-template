@@ -74,7 +74,7 @@ If everything runs successfully, the serialized validator will be written to `va
 
 Congratulations, you've successfully created a Plutus validator script!
 
-## 7. Project detailed explanation : Sections below explain the structure of the plutus project: the app/AuctionValidator.hs in an easy to understand way.
+## 7. Project detailed explanation : Sections below explain the structure of the plutus project: the app/AuctionValidator.hs in an easy way.
 
 [2. Explanation of haskell language extentions.md](https://github.com/besiwims/plutus-tx-template/blob/main/2.%20Explanation%20of%20haskell%20language%20extentions.md)
 
