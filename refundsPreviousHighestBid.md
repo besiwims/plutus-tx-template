@@ -49,6 +49,6 @@ refundsPreviousHighestBid = case highestBid of
 
 This function is typically used in Plutus smart contracts to ensure that a refund has been correctly included in a transaction when needed.
 
-[SellerGetHighestBid](https://github.com/besiwims/plutus-tx-template/blob/main/sellerGetsHighestBid.md)
+[Back <<< SellerGetHighestBid](https://github.com/besiwims/plutus-tx-template/blob/main/sellerGetsHighestBid.md)
 
 [Next >>> CorrectNewDatum](https://github.com/besiwims/plutus-tx-template/blob/main/correctNewDatum.md)
