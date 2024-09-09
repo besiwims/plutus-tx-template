@@ -90,4 +90,4 @@ Congratulations, you've successfully created a Plutus validator script!
 
 [5. c) refundsPreviousHighestBid.md_]()
 
-[5. d) correctNewDatum.md]()
+[5. d) correctNewDatum.md](https://github.com/besiwims/plutus-tx-template/blob/main/5.%20d)%20correctNewDatum.md)
