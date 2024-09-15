@@ -1,4 +1,4 @@
-# This is a rapid Plutus Application Development (rPAD-Pheidippides) project.
+# This is a rapid Plutus Application Development (rPAD-Pheidippides) project. This is intended to be for new developers.
 
 **Aim:** To promote rapid, easy learning, simplification, and development on Cardano. Just like a greek messanger Pheidippides, who ran to deliver good news of victory, rPAD aims to quickly deliver quick dApps to Cardano communities.
 ![alt text](WhatsApp_Image_2024-09-09_at_14.38.56-removebg-preview.png)
