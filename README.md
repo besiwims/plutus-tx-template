@@ -153,4 +153,5 @@ To verify invariants using QuickCheck:
 
 *Updated by Coxygen Global - Bernard Sibanda*
 *Date: 15 September 2025*
+*Developer: Daniella Kamana*
 
