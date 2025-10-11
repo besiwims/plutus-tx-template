@@ -287,7 +287,7 @@ See the `LICENSE` file for details.
 
 🧠 *Maintained by Coxygen Global – Bernard Sibanda*
 📅 *Last updated: 15 September 2025*
-
+*Developer: Balogun Muiz Dolapo*
 ```
 
 ---
