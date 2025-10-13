@@ -1,29 +1,30 @@
 # 🧭 1. Auction Validator Project
 
-Updated by **Coxygen Global – Bernard Sibanda**  
+Updated by **Coxygen Global – Bernard Sibanda**
+
 > 💡 Plinth currently supports **GHC 9.6.x** and **Cabal 3.8+** (recommended).
 
 ## 📑 2. Table of Contents
 
-1. [🧭 Auction Validator Project](#-1-auction-validator-project)  
-2. [📑 Table of Contents](#-2-table-of-contents)  
-3. [⚙️ Overview](#️-3-overview)  
-4. [✨ Features](#-4-features)  
-5. [🏗️ Architecture](#️-5-architecture)  
-6. [📋 Prerequisites](#-6-prerequisites)  
-7. [⚡ Quick Start](#-7-quick-start)  
-8. [🛠️ Installation & Build](#️-8-installation--build)  
-9. [🧪 Testing](#-9-testing)  
-10. [🔍 Property-Based Testing](#-10-property-based-testing)  
-11. [🚀 Usage](#-11-usage)  
-12. [⚙️ Configuration](#️-12-configuration)  
-13. [📂 Directory Structure](#-13-directory-structure)  
-14. [🔄 Development Workflow](#-14-development-workflow)  
-15. [🤖 CI/CD (Optional)](#-15-cicd-optional)  
-16. [🧯 Troubleshooting](#-16-troubleshooting)  
-17. [💬 FAQ](#-17-faq)  
-18. [🤝 Contributing](#-18-contributing)  
-19. [📜 License](#-19-license)  
+1. [🧭 Auction Validator Project](#-1-auction-validator-project)
+2. [📑 Table of Contents](#-2-table-of-contents)
+3. [⚙️ Overview](#️-3-overview)
+4. [✨ Features](#-4-features)
+5. [🏗️ Architecture](#️-5-architecture)
+6. [📋 Prerequisites](#-6-prerequisites)
+7. [⚡ Quick Start](#-7-quick-start)
+8. [🛠️ Installation & Build](#️-8-installation--build)
+9. [🧪 Testing](#-9-testing)
+10. [🔍 Property-Based Testing](#-10-property-based-testing)
+11. [🚀 Usage](#-11-usage)
+12. [⚙️ Configuration](#️-12-configuration)
+13. [📂 Directory Structure](#-13-directory-structure)
+14. [🔄 Development Workflow](#-14-development-workflow)
+15. [🤖 CI/CD (Optional)](#-15-cicd-optional)
+16. [🧯 Troubleshooting](#-16-troubleshooting)
+17. [💬 FAQ](#-17-faq)
+18. [🤝 Contributing](#-18-contributing)
+19. [📜 License](#-19-license)
 20. [📖 Glossary](#-20-glossary)
 
 ## ⚙️ 3. Overview
@@ -34,28 +35,28 @@ The project is based on the **Plinth Template** for teaching on-chain Cardano sm
 
 ## ✨ 4. Features
 
-- 🪙 On-chain **Auction Validator** (bid, close, payout logic)  
-- 🧱 **Minting Policy** for auction tokens  
-- 🧩 **Blueprint** generation tools for off-chain deployment  
-- 🧪 **Unit tests** and **property-based tests**  
-- 🧰 **Nix** and **Devcontainer** support for reproducibility  
+- 🪙 On-chain **Auction Validator** (bid, close, payout logic)
+- 🧱 **Minting Policy** for auction tokens
+- 🧩 **Blueprint** generation tools for off-chain deployment
+- 🧪 **Unit tests** and **property-based tests**
+- 🧰 **Nix** and **Devcontainer** support for reproducibility
 - 🔄 Modular Cabal/Nix structure for teaching and reuse
 
 ## 🏗️ 5. Architecture
 
-| Layer | Purpose |
-|-------|----------|
+| Layer                 | Purpose                                   |
+| --------------------- | ----------------------------------------- |
 | 🧠 **On-chain Logic** | Implemented in `src/AuctionValidator.hs`. |
-| 🧰 **Executables** | Blueprint generators under `app/`. |
-| 🧪 **Tests** | Unit + property suites under `test/`. |
-| ⚙️ **Infrastructure** | Cabal/Nix build environment. |
+| 🧰 **Executables**    | Blueprint generators under `app/`.        |
+| 🧪 **Tests**          | Unit + property suites under `test/`.     |
+| ⚙️ **Infrastructure** | Cabal/Nix build environment.              |
 
 ## 📋 6. Prerequisites
 
-- **GHC** `9.6.x`  
-- **Cabal** `3.8+`  
-- **Nix** *(optional)*  
-- **Docker / Devcontainer** *(optional)*
+- **GHC** `9.6.x`
+- **Cabal** `3.8+`
+- **Nix** _(optional)_
+- **Docker / Devcontainer** _(optional)_
 
 > 🧩 If not using Nix, install via [Haskell Platform](https://www.haskell.org/platform/) or `ghcup`.
 
@@ -73,7 +74,7 @@ cabal build --enable-tests
 
 # 4️⃣ Run test suite
 cabal test
-````
+```
 
 ## 🛠️ 8. Installation & Build
 
@@ -150,9 +151,9 @@ cabal test auction-properties
 
 ## ⚙️ 12. Configuration
 
-* Project settings: `cabal.project`, `auction.cabal`
-* Local overrides: `cabal.project.local`
-* To ignore local configs:
+- Project settings: `cabal.project`, `auction.cabal`
+- Local overrides: `cabal.project.local`
+- To ignore local configs:
 
   ```bash
   echo "cabal.project.local" >> .gitignore
@@ -189,9 +190,9 @@ auction/
 
 ## 🤖 15. CI/CD (Optional)
 
-* 🧰 **Build & Test:** `cabal build --enable-tests && cabal test`
-* 📦 **Artifacts:** Upload blueprint JSONs, logs, etc.
-* ⚡ **Cache:** Use Cabal store caching for faster pipelines.
+- 🧰 **Build & Test:** `cabal build --enable-tests && cabal test`
+- 📦 **Artifacts:** Upload blueprint JSONs, logs, etc.
+- ⚡ **Cache:** Use Cabal store caching for faster pipelines.
 
 ## 🧯 16. Troubleshooting
 
@@ -238,9 +239,12 @@ See the `LICENSE` file for details.
 | 🔗   | **TxInfo**        | Transaction metadata passed to the validator.          |
 | 🧪   | **QuickCheck**    | Haskell property-based testing framework.              |
 | 🧭   | **hspec**         | Behavior-driven testing framework for Haskell.         |
-| 🗺️  | **AssocMap**      | Plutus internal key–value map type.                    |
+| 🗺️   | **AssocMap**      | Plutus internal key–value map type.                    |
 
-🧠 *Maintained by Coxygen Global – Bernard Sibanda*
-📅 *Last updated: 15 September 2025*
-*Developer: Balogun Muiz Dolapo*
+🧠 _Maintained by Coxygen Global – Bernard Sibanda_
+📅 _Last updated: 15 September 2025_
+_Developer: Balogun Muiz Dolapo_
+
+```
+olivier Mwatsimulamo developer
 ```
