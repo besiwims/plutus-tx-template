@@ -45,12 +45,8 @@ The project is based on the **Plinth Template** for teaching on-chain Cardano sm
 
 ## ✨ 4. Features
 
-- 🪙 On-chain **Auction Validator** (bid, close, payout logic)  
-- 🧱 **Minting Policy** for auction tokens  
-- 🧩 **Blueprint** generation tools for off-chain deployment  
-- 🧪 **Unit tests** and **property-based tests**  
-- 🧰 **Nix** and **Devcontainer** support for reproducibility  
-- 🔄 Modular Cabal/Nix structure for teaching and reuse
+ 
+![image](https://github.com/user-attachments/assets/5e920e6a-4189-4917-b9ad-b31977e0d81b)
 
 ---
 
@@ -220,32 +216,9 @@ auction/
 
 ---
 
-## 🤖 15. CI/CD (Optional)
-
-* 🧰 **Build & Test:** `cabal build --enable-tests && cabal test`
-* 📦 **Artifacts:** Upload blueprint JSONs, logs, etc.
-* ⚡ **Cache:** Use Cabal store caching for faster pipelines.
-
----
-
-## 🧯 16. Troubleshooting
-
-| Issue              | Fix                                                         |
-| ------------------ | ----------------------------------------------------------- |
-| Build fails        | `cabal clean && cabal update && cabal build --enable-tests` |
-| Wrong compiler     | Use `ghc --version` → must be 9.6.x                         |
-| Nix errors         | Try `nix develop` or update flakes                          |
-| Devcontainer fails | Check Docker Desktop / VSCode extensions                    |
-
----
-
-## 💬 17. FAQ
-
-**Q:** Do I need Nix?
-**A:** No. It’s optional but ensures reproducibility.
-
-**Q:** Where do I change auction parameters?
-**A:** In `GenAuctionValidatorBlueprint.hs`.
+*Updated by Coxygen Global - Bernard Sibanda*
+*Date: 15 September 2025*
+*Developers:*
 
 **Q:** How do I run only property tests?
 **A:** `cabal test auction-properties`

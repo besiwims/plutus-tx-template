@@ -195,7 +195,7 @@ Add a second test suite in `.cabal` if desired.
 | **QuickCheck**    | Library for property‐based testing in Haskell.                                               |
 
 
+
+Developers:
 Coxygen Global
-Developer
-Matimba Mtileni
-Balogun Muiz, Dolapo.
+Bernard Sibanda
